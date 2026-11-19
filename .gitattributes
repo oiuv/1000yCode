@@ -1,0 +1,36 @@
+* text=auto
+
+# Repository metadata and Markdown use LF.
+.gitattributes text eol=lf
+.gitignore text eol=lf
+.editorconfig text eol=lf
+*.md text eol=lf
+
+# Windows scripts and Delphi sources use CRLF on checkout.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.pas text eol=crlf
+*.dpr text eol=crlf
+*.dpk text eol=crlf
+*.inc text eol=crlf
+*.cfg text eol=crlf
+*.dof text eol=crlf
+*.dproj text eol=crlf
+*.bdsproj text eol=crlf
+*.dfm text=auto eol=crlf
+
+# Keep original bytes in legacy data, scripts and third-party text.
+*.[Ii][Nn][Ii] -text !eol whitespace=cr-at-eol
+*.[Tt][Xx][Tt] -text !eol whitespace=cr-at-eol
+*.[Ss][Dd][Bb] -text !eol whitespace=cr-at-eol
+
+# Resources, linked objects and game assets are binary.
+*.res binary !eol
+*.dcr binary !eol
+*.obj binary !eol
+*.ico binary !eol
+*.acs binary !eol
+*.tbl binary !eol
+*.smp binary !eol
+*.sma binary !eol

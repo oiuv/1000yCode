@@ -1,0 +1,61 @@
+# Delphi build output and IDE state
+/build-output/
+[Dd][Cc][Uu]/
+*.[Dd][Cc][Uu]
+*.[Dd][Cc][Pp]
+*.[Ee][Xx][Ee]
+*.[Dd][Ll][Ll]
+*.bpl
+*.bpi
+*.drc
+*.dres
+*.rsm
+*.tds
+*.ddp
+*.dsk
+*.identcache
+*.local
+*.local.*
+*.stat
+*.[Ss][Cc][Cc]
+__history/
+__recovery/
+/gate/bin/gate.map
+/login/bin/login.map
+
+# Local deployment settings
+/balance/[Bb][Aa][Ll][Aa][Nn][Cc][Ee].[Ii][Nn][Ii]
+/db/bin/[Dd][Bb].[Ii][Nn][Ii]
+/db/bin/[Ii][Pp][Ll][Ii][Ss][Tt].[Tt][Xx][Tt]
+/db/bin/[Rr][Ee][Mm][Oo][Tt][Ee][Ii][Pp].[Tt][Xx][Tt]
+/gate/bin/[Gg][Aa][Tt][Ee].[Ii][Nn][Ii]
+/gate/bin/[Ii][Pp][Bb][Aa][Nn].[Tt][Xx][Tt]
+/login/bin/[Ll][Oo][Gg][Ii][Nn].[Ii][Nn][Ii]
+/tgs1000/bin/[Ss][Vv]1000.[Ii][Nn][Ii]
+/tgs1000/bin/[Bb][Aa][Dd][Ii][Pp][Aa][Dd][Dd][Rr].[Tt][Xx][Tt]
+/tgs1000/bin/[Ss][Yy][Ss][Oo][Pp].[Ss][Dd][Bb]
+
+# Logs and mutable game data
+*.[Ll][Oo][Gg]
+*.[Ff][Dd][Bb]
+*.[Dd][Bb]
+/db/bin/[Ll][Oo][Gg]/
+/db/bin/[Uu]ser[Dd]ata/
+/db/bin/[Ww]eb/
+/login/bin/[Ll][Oo][Gg]/
+/tgs1000/bin/[Ll][Oo][Gg]/
+/tgs1000/bin/[Ii]tem[Ll]og/
+/tgs1000/bin/[Mm]acro[Dd]ata/
+/tgs1000/bin/[Gg]uild/
+/tgs1000/bin/[Pp]rison.[Ss][Dd][Bb]
+/tgs1000/bin/[Mm]agic[Ff]or[Gg]uild.[Ss][Dd][Bb]
+/tgs1000/bin/[Ee]vent/[Mm]arry.[Ss][Dd][Bb]
+
+# Backups and OS metadata
+*.bak
+*.~*
+*~
+/tgs1000/bin/Init/复件 EnergyLimitTable.SDB
+Thumbs.db
+Desktop.ini
+.DS_Store
