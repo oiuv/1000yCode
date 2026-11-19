@@ -39,4 +39,4 @@
 ## 相关项目
 
 - [完整客户端程序](https://github.com/oiuv/1000yClient.git)
-- [开发者文档](https://github.com/oiuv/1000yDocs.git)
+- [千年开发者文档](https://github.com/oiuv/1000yDocs.git)
