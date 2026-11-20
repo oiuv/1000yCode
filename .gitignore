@@ -27,8 +27,6 @@ __recovery/
 /balance/[Bb][Aa][Ll][Aa][Nn][Cc][Ee].[Ii][Nn][Ii]
 /db/bin/[Dd][Bb].[Ii][Nn][Ii]
 /db/bin/[Ii][Pp][Ll][Ii][Ss][Tt].[Tt][Xx][Tt]
-/db/bin/[Rr][Ee][Mm][Oo][Tt][Ee][Ii][Pp].[Tt][Xx][Tt]
-/gate/bin/[Gg][Aa][Tt][Ee].[Ii][Nn][Ii]
 /gate/bin/[Ii][Pp][Bb][Aa][Nn].[Tt][Xx][Tt]
 /login/bin/[Ll][Oo][Gg][Ii][Nn].[Ii][Nn][Ii]
 /tgs1000/bin/[Ss][Vv]1000.[Ii][Nn][Ii]
@@ -55,7 +53,6 @@ __recovery/
 *.bak
 *.~*
 *~
-/tgs1000/bin/Init/复件 EnergyLimitTable.SDB
 Thumbs.db
 Desktop.ini
 .DS_Store
